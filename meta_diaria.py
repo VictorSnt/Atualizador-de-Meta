@@ -56,11 +56,11 @@ def main():
     
     message = f"""
 Atualização:
-1° {list(first.keys())[0]} Atual: R${int(list(first.values())[0])} Meta: R${int(list(first.values())[1])} {list(first.values())[2]}\n
-2° {list(second.keys())[0]} Atual: R${int(list(second.values())[0])} Meta: R${int(list(second.values())[1])} {list(second.values())[2]}\n
-3° {list(third.keys())[0]} Atual: R${int(list(third.values())[0])} Meta: R${int(list(third.values())[1])} {list(third.values())[2]}\n
-4° {list(fourth.keys())[0]} Atual: R${int(list(fourth.values())[0])} Meta: R${int(list(fourth.values())[1])} {list(fourth.values())[2]}\n
-Loja {float(store_sales['total']):.2f} unidades
+1° {list(first.keys())[0]} Atual: R${int(list(first.values())[0])} Meta: R${int(list(first.values())[1])} {list(first.values())[2]}
+2° {list(second.keys())[0]} Atual: R${int(list(second.values())[0])} Meta: R${int(list(second.values())[1])} {list(second.values())[2]}
+3° {list(third.keys())[0]} Atual: R${int(list(third.values())[0])} Meta: R${int(list(third.values())[1])} {list(third.values())[2]}
+4° {list(fourth.keys())[0]} Atual: R${int(list(fourth.values())[0])} Meta: R${int(list(fourth.values())[1])} {list(fourth.values())[2]}
+Loja R${float(store_sales['total']):.2f}
     """
 
 

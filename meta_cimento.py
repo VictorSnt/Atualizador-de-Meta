@@ -48,7 +48,7 @@ Atualização:
 2° {list(second.keys())[0]} {int(list(second.values())[0])} und 🥈= R${float(list(second.values())[0]) * 0.15:.2f}
 3° {list(third.keys())[0]} {int(list(third.values())[0])} und 🥉= R${float(list(third.values())[0]) * 0.15:.2f}
 4° {list(fourth.keys())[0]} {int(list(fourth.values())[0])} und = R${float(list(fourth.values())[0]) * 0.15:.2f}
-Loja {float(store_sales['total'] - 370):.2f} unidades
+Loja {float(store_sales['total']):.2f} 
     """
 
 
